@@ -13,24 +13,21 @@
 
 
     <header>
-        <div class="header-logo">
-            <img src="./logo/4comfort.png" alt="logo da loga. 4comfort" width="160" height="180">
-        </div>
-
-        <h1>4COMFORT</h1>
-
-        <p>4Comfort é uma nova empresa cuja proposta é oferecer o tênis mais confortável possível.<p>
+            <img class="header-logo" src="./logo/4comfort.png" alt="logo da loga. 4comfort" width="160" height="180" >
+        
+            <h1>4COMFORT</h1>
+            <p>4Comfort é uma nova empresa cuja proposta é oferecer o tênis mais confortável possível.<p>
 
     </header>
 
     <nav class="nav">
     
         <div class="nav-items">
-                <form action="post" class="form">
+                <form action="post" class="nav-search">
                     <input type="text" placeholder="Faça uma busca">
             
-                    <button class="cabecalho-button">
-                        <img src="" alt="">
+                    <button class="nav-search-button">
+                        <img src="./icon/loupe (1).png" alt="imagem de uma lupa" width="10px" height="10px">
                     </button>
             
                 </form>
@@ -40,7 +37,7 @@
                 <a href="">Promoções</a>
                 <a href="">Lista de desejos</a>
                 
-                <button>
+                <button class="nav-button-carrinho">
                     <img src="./img/carrinho.png" alt="" width="20px" height="20px">
                 </button>
         </div>
@@ -75,37 +72,58 @@
 
     </main>
 
-    <footer class="rodape">
 
-        <form action="post" class="footer-form">
-            <div class="footer-inputs">
-                <input type="text" placeholder="Seu nome">
-                <input type="text" placeholder="Assunto">
-                <input type="email" placeholder="Seu email">
-                <input type="text" placeholder="Sua mensagem">
+
+    <section class="section">
+        <form action="post">
+
+            <P>Entre em contato conosco</P>
+            <div class="form-inputs">
+                <div class="form-seu-nome">
+                    <input type="text" placeholder="Seu nome">
+                </div>
+                <div class="form-assunto">
+                    <input type="text" placeholder="Assunto">
+                </div>
+                <div class="form-seu-email">
+                    <input type="text" placeholder="Seu e-mail">
+                </div>
+                <div class="form-seu-mensagem">
+                    <input type="text" placeholder="Sua mensagem">
+                </div>
+                
             <div>
-            <button>
+            <button class="form-button">
                 enviar
             </button>
             </div>
         </form>
+    </section>
 
 
 
-    <p>
-        &#0169 Nos siga nas redes sociais!
+
+
+
+    <footer class="footer">
+    <p class="footer-p1">
+        Nos siga nas redes sociais!
     </p>
 
-    <a href="">
-        <img src="./icon/logo-do-facebook.png" alt="" width="20px" height="20px">
-    </a>
+    <div class="footer-icons">
+            <a href="">
+                <img src="./icon/logo-do-facebook.png" alt="" width="50px" height="50px">
+            </a>
 
-    <a href="">
-        <img src="./icon/instagram (2).png" alt="" width="20px" height="20px">
-    </a>
-    <a href="">
-        <img src="./icon/twitter.png" alt="" width="20px" height="20px">
-    </a>
+            <a href="">
+                <img src="./icon/instagram (2).png" alt="" width="50px" height="50px">
+            </a>
+            <a href="">
+                <img src="./icon/twitter.png" alt="" width="50px" height="50px">
+            </a>
+    </div>
+
+    <p class="footer-p2"> &#0169 4COMFORT</p>
 </footer>
 
 
