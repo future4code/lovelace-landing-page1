@@ -3,124 +3,275 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* HEADER */
 
 header{
-
     background-color:#e8fffc;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    height: 350px;
 }
 
-.header-logo{
-    
+.header-img{
+    margin-bottom: 30px;
 }
+
+.header-h1{
+    margin-bottom: 30px;
+}
+
+.header-p{
+
+}
+
+
+
+
+
+
 
 /* NAV */
 
 nav{
-
-}
-
-.nav-items{
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    height: 60px;
+    background-color: aqua;
 }
 
-.nav-search{
-
-}
-
-.nav-search-button{
-
-}
-
-.nav-button-carrinho{
-
+#nav-input-search{
+    height: 30px;
+    width: 200px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
 }
 
 
+.nav-button{
+    height: 30px;
+    width: 50px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
+}
 
-/* SECTION */
-
-.section{
+.nav-links{
     display: flex;
-    background-color:black;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
-    height: 300px
+}
+.nav-links a{
+   color: black;
 }
 
-.form > p{
 
+.nav-links a:hover{
+    color: white;
 }
 
-.form-inputs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#nav-home{
+    height: 30px;
+    width: 80px;
+
+}
+#nav-produtos{
+    height: 30px;
+    width: 80px;
+ 
+}
+#nav-promocao{
+    height: 30px;
+    width: 80px;
+    
+}
+#nav-lista-de-desejos{
+    height: 30px;
+    width: 100px;
     
 }
 
-.form-seu-nome{
-    padding: 8px;
+.nav-button-carrinho{
+    height: 40px;
+    width: 120px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION ----------------------- */
+
+.section{
+    height: 350px;
+    background-color: rgb(93, 112, 128);
+    padding: 50px 8%;
 
 }
 
-.form-seu-assunto{
-    padding: 8px;
+
+.section-h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 20px 20px 2px;
 }
 
-.form-seu-email{
-    padding: 8px;
+
+.section-form{
+    display: flex;
+    justify-content: space-around;
 }
 
-.form-seu-mensagem{
-    padding: 8px;
+
+.section-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#seu-nome{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 70px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+
+#seu-assunto{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 70px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+
+#seu-email{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 30px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+
+.section-inputs-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#seu-mensagem{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 30px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+
+#seu-enviar{
+    height: 30px;
+    width: 80px;
+    margin-bottom: 30px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px black;
+    text-align: center; 
+}
+
+
+   
 
   
-}
 
-
-.form-button{
-
-}
-
-/* FOOTER */
+/* FOOTER --------------------------------*/
 
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     background-color: aqua;
-    height: 200px
+    height: 100%;
 }
 
+
 .footer-p1 {
-    height: 80px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 8px;
-    font-size: 50px;
+    font-size: 30px;
 }
+
 
 .footer-icons{
     display: flex;
-    justify-content: space-evenly ;
-  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
+
+#footer-icone-facebook{
+    margin-right: 12px;
+}
+
+
+#footer-icone-instagram{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+#footer-icone-twitter{
+    margin-left: 12px;
+}
+
+
 .footer-p2 {
-    height: 80px;
+    display: flex;
     align-items: center;
-    padding: 50px;
- 
+    padding: 8px;
+    font-size: 10px;
 }
 
