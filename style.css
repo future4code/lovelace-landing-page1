@@ -8,10 +8,15 @@ a{
     text-decoration: none;
 }
 
+.responsividade{
+    max-width: 2000px;
+    min-width: 300;
+}
+
 /* HEADER */
 
 header{
-    background-color:#e8fffc;
+    background-color:#BDC3DA;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,11 +25,7 @@ header{
 }
 
 .header-img{
-    margin-bottom: 30px;
-}
-
-.header-h1{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .header-p{
@@ -45,7 +46,10 @@ nav{
     align-items: center;
     justify-content: space-around;
     height: 60px;
+    width: 100%;
+    flex-wrap: wrap;
     background-color: aqua;
+   
 }
 
 #nav-input-search{
@@ -55,6 +59,7 @@ nav{
     border-radius: 15px;
     box-shadow: 5px 5px  5px black;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 
@@ -65,6 +70,7 @@ nav{
     border-radius: 15px;
     box-shadow: 5px 5px  5px black;
     text-align: center;
+    flex-wrap: unset;
 }
 
 .nav-links{
@@ -134,6 +140,7 @@ nav{
     height: 350px;
     background-color: rgb(93, 112, 128);
     padding: 50px 8%;
+    
 
 }
 
@@ -149,13 +156,19 @@ nav{
 
 .section-form{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    
 }
 
 
 .section-inputs{
     display: flex;
     flex-direction: column;
+    margin:auto;
 }
 
 
@@ -203,6 +216,7 @@ nav{
     height: 250px;
     width: 250px;
     margin-bottom: 30px;
+    margin-left: 80px;
     border-style: hidden;
     border-radius: 15px;
     box-shadow: 5px 5px  5px black;
@@ -214,6 +228,7 @@ nav{
     height: 30px;
     width: 80px;
     margin-bottom: 30px;
+    margin-left: 80px;
     border-style: hidden;
     border-radius: 15px;
     box-shadow: 5px 5px  5px black;
@@ -234,6 +249,8 @@ nav{
     align-items: center;
     background-color: aqua;
     height: 100%;
+    flex-wrap: wrap;
+    flex-grow: 4;
 }
 
 
